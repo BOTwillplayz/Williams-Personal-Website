@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-family: 'jersey 10';
+    background: black;
+    color: blueviolet;
+  }
+  p {
+    font-size: 2em;
+  }
+  h1 {
+    font-size: 96px;
+  }
+  img {
+    width: 500px;
+  }
+  button {
+    font-size: 52px;
+    text-align: center;
+    font-family: 'jersey 10';
+    background-color: blueviolet;
+    color: black;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.15s ease-out, background-color 0.2s ease;
+  }
+
+button:hover {
+    background-color: blue;
+    transform: scale(1.1);
+  }
+
+  audio {
+    width: 100%;
+    filter: brightness(0.8)contrast(1.2s);
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 72px;
+  }

@@ -1,0 +1,74 @@
+<!DOCUTYPE html>
+    <html lang="en">
+    
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    </head>
+    <body>
+    <h1>THE QUIZ *dun dun DUUNNNNN*</h1>
+    <h4>pls don't cheat 😭</h4>
+      <h2>Q1. Which of these is NOT an artist I like?</h2><br>
+      <input type="radio" name="Q1" >Arcane <br>
+      <input type="radio" name="Q1" >Peter McPoland <br>
+      <input type="radio" name="Q1" id="correct1"> Benson Boone <br>
+      <input type="radio" name="Q1" > Tyler, The Creator <br>
+
+      <h2>Q2. Which F1 team do I support?</h2><br>
+        <input type="radio" name="Q2" >Mclaren <br>
+        <input type="radio" name="Q2" id="correct2" >Williams <br>
+        <input type="radio" name="Q2" >Sauber <br>
+        <input type="radio" name="Q2" >Mercedes <br>
+
+    <h2>Q3. Which of these is one of my dogs name?</h2><br>
+        <input type="radio" name="Q3" >Rex <br>
+        <input type="radio" name="Q3" >Barney <br>
+        <input type="radio" name="Q3" >Mr. Floof <br>
+        <input type="radio" name="Q3" id="correct3" >Max <br>
+    
+    <h2>Q4. What does it say on this websites 404 page?</h2><br>
+        <input type="radio" name="Q4" >Oops, page not found<br>
+        <input type="radio" name="Q4" id="correct4" >The Page You Are Visting Does NOT Exist <br>
+        <input type="radio" name="Q4" >This is not the page you are looking for<br>
+        <input type="radio" name="Q4" >LOSER LMFAO WRONG ADRESS 😂!!!! <br>
+
+    <h2>Q5. What is my favourite game (hint look at the favicon)</h2><br>
+        <input type="radio" name="Q5" id="correct5" >Balatro <br>
+        <input type="radio" name="Q5" >Red Dead Redemption <br>
+        <input type="radio" name="Q5" >Minecraft <br>
+        <input type="radio" name="Q5" >Celeste <br>
+
+        <input type="submit" name="submit" value="submitQuiz" onclick="result()">
+
+     <script type="text/javascript">
+        function result(){
+            var score=0;
+            if(document.getElementById(correct1).checked)
+            {
+                score++;
+            }
+            if(document.getElementById(correct2).checked)
+            {
+                score++;
+            }
+            if(document.getElementById(correct3).checked)
+            {
+                score++;
+            }
+            if(document.getElementById(correct4).checked)
+            {
+                score++;
+            }
+            if(document.getElementById(correct5).checked)
+            {
+                score++;
+            }
+            document.getElementById("score").innerText = "Your Score Is" + score + "/5"
+        }
+     </script>       
+    </body>
+
+    <!--I couldn't get this to work in time for swirl, so I decied to just scrap it... for now-->
