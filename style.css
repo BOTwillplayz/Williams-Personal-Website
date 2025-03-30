@@ -42,3 +42,13 @@ button:hover {
   h2 {
     font-size: 72px;
   }
+
+  footer {
+    background-color: blueviolet;
+    color: black;
+    border-radius: 25px;
+  }
+
+  body {
+    cursor: url("images/Cursor.png"), auto;
+  }
