@@ -50,5 +50,5 @@ button:hover {
   }
 
   body {
-    cursor: url("images/Cursor.png"), auto;
+    cursor: url('images/Cursor.png'), auto;
   }
